@@ -285,3 +285,30 @@ footer {
         height: 150px;
     }
 }
+
+  .col-6 {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #030303;
+    gap:10px;
+}
+@media (max-width: 768px) {
+  .col-6 {
+    width: 100%;
+  }
+}
+
+  .btn1{
+    width:100px;
+    height:30px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0077B5;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
